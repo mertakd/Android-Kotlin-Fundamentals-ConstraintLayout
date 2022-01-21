@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             greenButton
         )
 
+        //döngü
         for (item in clickableViews){
             item.setOnClickListener { makeColored(it) }
         }
